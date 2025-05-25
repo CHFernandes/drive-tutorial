@@ -2,7 +2,7 @@ import { eq } from "drizzle-orm";
 import DriveContents from "~/app/drive-contents";
 import { db } from "~/server/db";
 import {
-  files as filesSchema,
+  files_table as filesSchema,
   folders as foldersSchema,
 } from "~/server/db/schema";
 
