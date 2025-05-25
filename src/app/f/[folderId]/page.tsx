@@ -3,7 +3,7 @@ import DriveContents from "~/app/drive-contents";
 import { db } from "~/server/db";
 import {
   files_table as filesSchema,
-  folders as foldersSchema,
+  folders_schema as foldersSchema,
 } from "~/server/db/schema";
 
 async function getAllParents(folderId: number) {
